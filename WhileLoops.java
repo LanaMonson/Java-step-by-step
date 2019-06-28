@@ -29,3 +29,14 @@ public class WhileLoops {
 //TERMINAL OUTPUT:
 //true
 
+
+
+public class WhileLoops {
+    public static void main(String[] args) {
+        boolean t = 3>9;
+        System.out.println(t);
+    }
+}
+
+//TERMINAL OUTPUT:
+//false
