@@ -17,3 +17,15 @@ public class WhileLoops {
 
 //TERMINAL OUTPUT:
 //false
+
+
+public class WhileLoops {
+    public static void main(String[] args) {
+        boolean t = 5>2;
+        System.out.println(t);
+    }
+}
+
+//TERMINAL OUTPUT:
+//true
+
