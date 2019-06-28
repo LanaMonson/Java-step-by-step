@@ -40,3 +40,14 @@ public class WhileLoops {
 
 //TERMINAL OUTPUT:
 //false
+
+
+public class WhileLoops {
+    public static void main(String[] args) {
+        boolean t = 7>7;
+        System.out.println(t);
+    }
+}
+
+//TERMINAL OUTPUT:
+//false
