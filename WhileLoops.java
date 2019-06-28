@@ -8,3 +8,12 @@ public class WhileLoops {
 //TERMINAL OUTPUT:
 //true
 
+public class WhileLoops {
+    public static void main(String[] args) {
+        boolean j = false;
+        System.out.println(j);
+    }
+}
+
+//TERMINAL OUTPUT:
+//false
