@@ -13,7 +13,7 @@ public class Input {
 //TERMINAL OUTPUT:
 //Enter something
 
-//--I Entered "Hello"
+//--I Enter "Hello"
 // Hello
 
 //TERMINAL OUTPUT:
@@ -35,5 +35,10 @@ public class Input {
 }
 //TERMINAL OUTPUT:
 //Enter the number
+
+//I enter "264>
+
+//TERMINAL OUTPUT:
+//you enter 264
 
 
