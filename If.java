@@ -22,9 +22,11 @@ public class If {
 public class If {
     public static void main(String[] args) {
         if(5<3) {
-            System.out.println("Yes, it is correct!");
+            System.out.println("Yes, it is correct.");
+        } else {
+            System.out.println("No, it is wrong.");
         }
     }
 }
 //TERMINAL OUTPUT:
-//Process finished with exit code 0
+//No, it is wrong.
