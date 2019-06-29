@@ -48,3 +48,27 @@ public class Anagram {
 
         return args2.length() == 0;
     }
+
+    public static List<Integer> compareTriplets(List<Integer> a, List<Integer> b) {
+        int aliceScore = 0;
+        int bobScore = 0;
+
+        for(int i = 0; i < a.size(); i++) {
+//            System.out.println("Hello " +i);   // i++ ==  i = i+1 (true)
+
+            if (a.get(i) < b.get(i)) {
+                aliceScore++;
+            }
+
+            else if(a.get(i) > b.get(i)) {
+                bobScore++;
+            }
+            else if(a.get(i) == b.get(i)) {
+                aliceScore = bobScore;
+            }
+        }
+
+        return new ArrayList(Arrays.asList(aliceScore, bobScore));
+    }
+
+}
