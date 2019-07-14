@@ -37,3 +37,8 @@ public class Switch {
 }
 
 // TERMINAL OUTPUT:
+//Enter the age
+//7
+//you are schoolkid
+
+
