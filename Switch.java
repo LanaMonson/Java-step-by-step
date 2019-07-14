@@ -42,3 +42,29 @@ public class Switch {
 //you are schoolkid
 
 
+
+
+import java.util.Scanner;
+
+public class Switch {
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the age");
+        String age = scanner.nextLine();
+        switch(age){
+            case "zero":
+                System.out.println("You just born");
+                break;
+            case "seven":
+                System.out.println("You are schoolkid");
+                break;
+            case "eighteen":
+                System.out.println("You are student");
+                break;
+        }
+    }
+}
+// TERMINAL OUTPUT:
+//Enter the age
+//seven
+//you are schoolkid
