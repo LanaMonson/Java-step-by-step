@@ -7,8 +7,10 @@ public class Multidimensional_arrays {
                           {7,8,9}};
 
         System.out.println(matrix[2][2]);
+        System.out.println(matrix[1][0]);
     }
 }
 
 //TERMINAL OUTPUT:
 //9
+//4
