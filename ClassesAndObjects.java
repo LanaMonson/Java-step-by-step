@@ -85,6 +85,7 @@ public class ClassesAndObjects {
         person2.name = "Jane Doe";
         person2.age = 27;
         person2.speak();
+        person2.sayHello();
     }
 }
 
@@ -106,3 +107,4 @@ class Person{
 //My name is Jane Doe and I'm 27 years old
 //My name is Jane Doe and I'm 27 years old
 //My name is Jane Doe and I'm 27 years old
+//Hi!
