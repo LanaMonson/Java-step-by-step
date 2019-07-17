@@ -108,3 +108,40 @@ class Person{
 //My name is Jane Doe and I'm 27 years old
 //My name is Jane Doe and I'm 27 years old
 //Hi!
+
+
+public class ClassesAndObjects {
+    public static void main(String[] args){
+        Person person1 = new Person();
+        person1.name = "Richard Roe";
+        person1.age = 45;
+
+        Person person2 = new Person();
+        person2.name = "Jane Doe";
+        person2.age = 27;
+        person1.calculateYearsToRetirement();
+        person2.calculateYearsToRetirement();
+    }
+}
+
+class Person{
+    String name;
+    int age;
+
+    void calculateYearsToRetirement(){
+        int years = 65-age;
+        System.out.println(years+" years left until retirement");
+    }
+
+    void speak(){
+        for(int i = 0; i<3; i++){
+        System.out.println("My name is "+ name + " and I'm " + age+" years old");
+        }
+    }
+    void sayHello(){
+        System.out.println("Hi!");
+    }
+}
+//TERMINAL OUTPUT:
+//20 years left until retirement
+//38 years left until retirement
