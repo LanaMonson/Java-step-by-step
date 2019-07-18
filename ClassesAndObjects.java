@@ -275,3 +275,50 @@ class Person{
 // My name is Chris River and I'm 52 years old
 // My name is Thomas Willson and I'm 33 years old
 // My name is Thomas Willson and I'm 33 years old
+
+
+public class ClassesAndObjects {
+    public static void main(String[] args){
+        Person person1 = new Person();
+        person1.setNameAndAge("Marcus Wood", 27);
+
+        String s1 = "Thomas Johnson";
+        Person person2 = new Person();
+        person2.setNameAndAge(s1, 32);
+
+
+        person1.speak();
+        person2.speak();
+    }
+}
+
+class Person{
+    String name;
+    int age;
+
+    void setNameAndAge(String username, int userage){
+        name = username;
+        age = userage;
+    }
+
+    int calculateYearsToRetirement(){
+        int years = 65-age;
+        return years;
+    }
+
+    void speak(){
+        for(int i = 0; i<3; i++){
+        System.out.println("My name is "+ name + " and I'm " + age+" years old");
+        }
+    }
+    void sayHello(){
+        System.out.println("Hello there!");
+    }
+}
+// TERMINAL OUTPUT:
+// My name is Marcus Wood and I'm 27 years old
+// My name is Marcus Wood and I'm 27 years old
+// My name is Marcus Wood and I'm 27 years old
+// My name is Thomas Johnson and I'm 32 years old
+// My name is Thomas Johnson and I'm 32 years old
+// My name is Thomas Johnson and I'm 32 years old
