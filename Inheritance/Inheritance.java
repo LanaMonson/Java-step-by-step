@@ -5,3 +5,6 @@ public class Inheritance {
         animal.sleep();
     }
 }
+//TERMINAL OUTPUT:
+//I am eating
+//I am sleeping
