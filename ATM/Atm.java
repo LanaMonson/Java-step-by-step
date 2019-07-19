@@ -6,4 +6,8 @@ public class Atm {
     void methodIn(short pin){
         System.out.println("Enter pin code");
     }
+
+    void methodIn(String yesNo, int sum){
+        System.out.println("Deposit cash? Specify the amount");
+    }
 }
