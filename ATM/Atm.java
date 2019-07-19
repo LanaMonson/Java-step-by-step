@@ -10,4 +10,8 @@ public class Atm {
     void methodIn(String yesNo, int sum){
         System.out.println("Deposit cash? Specify the amount");
     }
+
+    void methodOut(){
+        System.out.println("Take a receipt");
+    }
 }
