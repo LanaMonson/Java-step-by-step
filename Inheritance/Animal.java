@@ -1,9 +1,13 @@
+package Interfaces;
+
 public class Animal {
-    public void eat(){
-        System.out.println("om-nom-nom-nom");
+    public int id;
+
+    public Animal(int id){
+        this.id = id;
     }
 
     public void sleep(){
-        System.out.println("Z-zzz");
+        System.out.println("I am sleeping");
     }
 }
