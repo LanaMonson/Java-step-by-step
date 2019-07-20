@@ -1,13 +1,12 @@
-package Interfaces;
-
 public class Animal {
-    public int id;
 
-    public Animal(int id){
-        this.id = id;
+    String name = "Max";
+
+    public void eat(){
+        System.out.println("om-nom-nom-nom");
     }
 
     public void sleep(){
-        System.out.println("I am sleeping");
+        System.out.println("Z-zzz");
     }
 }
