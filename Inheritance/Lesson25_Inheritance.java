@@ -4,9 +4,11 @@ public class Lesson25_Inheritance {
         dog.eat();
         dog.sleep();
         dog.bark();
+        dog.showName();
     }
 }
 //TERMINAL OUTPUT:
-//om-nom-nom-nom
+// Crunch!
 // Z-zzz
 // Woof-Woof!
+// Max
