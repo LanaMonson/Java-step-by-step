@@ -1,6 +1,6 @@
 package Interfaces;
 
-public class Animal {
+public class Animal implements Info {
     public int id;
 
     public Animal(int id){
@@ -8,6 +8,11 @@ public class Animal {
     }
 
     public void sleep(){
+
         System.out.println("I am sleeping");
+    }
+
+    public void showInfo(){
+        System.out.println("Id is " +this.id);
     }
 }
