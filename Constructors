@@ -2,19 +2,59 @@
 //The constructor is called when an object of a class is created. 
 //It can be used to set initial values for object attributes:
 
-// Create a MyClass class
-public class MyClass {
-  int x;  // Create a class attribute
+public class Constructors {
+    public  static void main(String[] args){
+        Human human1 = new Human();
 
-  // Create a class constructor for the MyClass class
-  public MyClass() {
-    x = 5;  // Set the initial value for the class attribute x
-  }
-
-  public static void main(String[] args) {
-    MyClass myObj = new MyClass(); // Create an object of class MyClass (This will call the constructor)
-    System.out.println(myObj.x); // Print the value of x
-  }
+    }
 }
 
-// Outputs 5
+class Human {
+    private String name;
+    private  int age;
+
+    public Human(){
+        System.out.println("Hello from my first constructor!");
+    }
+
+    public Human(String name){
+        System.out.println("Hello from second constructor!");
+        this.name = name;
+    }
+
+    public void setName(String name) { this.name = name; }
+
+    public void setAge(int age) { this.age = age; }
+    
+    //OUTPUT:
+    //Hello from my first constructor!
+    
+    
+    
+    public class Constructors {
+    public  static void main(String[] args){
+        Human human1 = new Human("Bob");
+
+    }
+}
+
+class Human {
+    private String name;
+    private  int age;
+
+    public Human(){
+        System.out.println("Hello from my first constructor!");
+    }
+
+    public Human(String name){
+        System.out.println("Hello from second constructor!");
+        this.name = name;
+    }
+
+    public void setName(String name) { this.name = name; }
+
+    public void setAge(int age) { this.age = age; }
+}
+
+//OUTPUT:
+//Hello from second constructor!
