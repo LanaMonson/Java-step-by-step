@@ -5,7 +5,7 @@ public class Final {
 }
 
 class Test{
-    public final int CONSTANT;
+    public static final int CONSTANT;
 
     public Test(int CONSTANT){
         this.CONSTANT = CONSTANT;
